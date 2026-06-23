@@ -38,11 +38,8 @@ requirements:
 tests:
   - python:
       imports:
-      - rapidminer
-#      - rapidminer.core
-#      - rapidminer.ai
-#      - rapidminer.ai.ext
-#      - rapidminer.ai.dev
+      - rapidminer.ai.ext
+      - rapidminer.ai.dev
       pip_check: true
 
 about:
