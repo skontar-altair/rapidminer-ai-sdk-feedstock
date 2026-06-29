@@ -9,11 +9,11 @@ package:
 
 source:
   url: https://maven.rapidminer.com/repository/pypi-snapshot/packages/rapidminer-ai-sdk/${{ version }}/rapidminer_ai_sdk-${{ version }}.tar.gz
-  sha256: b87708da2f89e8c78a65a40ea6526383314cb104d93e09636087ef9a94f969e8
+  sha256: 1d1a0e16ae633abcb454b549d354d29816c078c4bb6103f9637c2bfdf7025d20
 
 build:
   noarch: python
-  number: 0
+  number: 1
   python:
     entry_points:
       - build-extension = rapidminer.ai.dev._builder:build_extension
